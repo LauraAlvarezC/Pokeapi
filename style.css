@@ -1,0 +1,57 @@
+body {
+    background-color:lightblue
+}
+
+h1 {
+    display: flex;
+    font-weight: bolder;
+    font-size: 50px;
+    justify-content: center;
+
+
+}
+
+input {
+    display: display-box;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content:center;
+
+
+}
+
+.searchInput {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.searchTitle {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.main__figure{
+    width: 400px;
+    border-style: solid
+
+}
+img {
+    object-fit: cover;
+    object-position: top;
+    width: 65%;
+    height: 200px;
+    border-style: solid
+    
+}
+
+
